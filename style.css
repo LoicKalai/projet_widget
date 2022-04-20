@@ -1,0 +1,95 @@
+*{
+    margin: 0;
+}
+
+
+header{
+    width: 100%;
+    height: 15%;
+    background-color: #266C85;
+    display: flex;
+    align-items: center;
+   
+}
+.logolk{
+    width: 10%;
+    height: 100%;
+}
+h1{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 3.500rem;
+    margin-right: 150px;
+    color: #cdcdcd;
+}
+.banniere{
+    height: 35vh;
+    width: 100%;
+    
+}
+main{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+
+
+.contain1{
+    background-color: #cdcdcd;
+    width: 95vw;
+    height: 72vh;
+    border-radius: 10px;
+    margin-top: 3%;
+}
+.contain2{
+    background-color: #cdcdcd;
+    width: 95vw;
+    height: 72vh;
+    border-radius: 10px;
+    margin-top: 3%;
+}
+.contain3{
+    background-color: #cdcdcd;
+    width: 95vw;
+    height: 72vh;
+    border-radius: 10px;
+    margin-top: 3%;
+}
+hr{
+    margin-top: 40px;
+    color: #266C85;
+
+}
+footer{
+    height: 12vh;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+
+}
+.sign{
+    font-weight: bold;
+}
+.sign2{
+    display: inline;
+}
+.icogit{
+    height: 25px;
+    width: 25px;
+    margin-right: 3px;
+    margin-top: 6px;
+}
+.credit{
+    margin-right: 3%;
+}
+.lienext{
+    cursor: pointer;
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
