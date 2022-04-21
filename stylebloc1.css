@@ -1,5 +1,6 @@
 .contain1{
     display: flex;
+    justify-content: space-evenly;
 
 }
 /*//////////////////////////////BLOC METEO///////////////////////////////////*/
@@ -63,3 +64,26 @@
 }
 
 /*//////////////////////////////BLOC MDP////////////////////////////////*/
+.blocmdp{
+    height: 30vh;
+    width: 30vw;
+    background-color: #266C85;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 15px;
+}
+.pmdp{
+    color: #266C85;
+    font-weight: bold;
+    font-size: 3em;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20%;
+    text-align: center;
+}
+.contmdp{
+    width: 30vw;
+    background-color: rgb(0, 225, 255);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
