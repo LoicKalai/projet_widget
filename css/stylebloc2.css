@@ -24,8 +24,8 @@
     justify-content: center;
 }
 .bloccalcul{
-    height: 50vh;
-    width: 27vw;
+    height: 55vh;
+    width: 22vw;
     background-color: whitesmoke;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
     border-radius: 15px;
@@ -47,9 +47,68 @@
 /*//////////////////////////////BLOC JUSTE PRIX///////////////////////////////////*/
 
 .contprix{
-    width: 30vw;
+    width: 50vw;
     background-color: rgb(255, 0, 183);
     display: flex;
     flex-direction: column;
     justify-content: center;
+}
+.pprix{
+    color: #266C85;
+    font-weight: bold;
+    font-size: 3em;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 2%;
+}
+.blocprix{
+    height: 50vh;
+    width: 40vw;
+    background-color: whitesmoke;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 15px;
+    background: #266C85;
+}
+.placeprix{
+    display: flex;
+    justify-content: center;
+}
+.titleprix{
+    font-size: 2em;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 5%;
+}
+.cadreprix{
+    height: 40%;
+    width: 50%;
+    background-color: whitesmoke;
+    margin-top: 8%;
+    margin-left: 25%;
+    border-radius: 10px;
+    font-size: 3rem;
+
+}
+.validetres{
+    height: 25%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.moreorless{
+    background-color: whitesmoke;
+    height: 45%;
+    width: 20%;
+    border-radius: 5px;
+}
+.btnvalid{
+    height: 45%;
+    width: 20%;
+    font-size: 1rem;
+    font-family:'Times New Roman', Times, serif;
+    font-weight: bold;
+    border-radius: 8px;
+    background: #CDCDCD;
+    
+    
 }
