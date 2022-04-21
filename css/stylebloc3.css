@@ -1,0 +1,22 @@
+.contain3{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+/*//////////////////////////////BLOC CONVERTISSEUR///////////////////////////////////*/
+
+.contconv{
+    width: 30vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: rgb(226, 43, 86);
+}
+.pconv{
+    color: #266C85;
+    font-weight: bold;
+    font-size: 3em;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 2%;
+}
